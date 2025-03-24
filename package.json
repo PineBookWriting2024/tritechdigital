@@ -1,0 +1,26 @@
+{
+  "name": "tritech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "gsap": "^3.12.7",
+    "next": "15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-fast-marquee": "^1.6.5",
+    "react-icons": "^5.5.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^4.0.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4"
+  }
+}
