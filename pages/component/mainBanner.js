@@ -19,8 +19,6 @@ export default function MainBanner(){
                     <div>
         
                     </div>
-        
-        
                   </div>
         
                 </div>
