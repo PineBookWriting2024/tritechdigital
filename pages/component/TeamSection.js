@@ -1,7 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import { FiFacebook } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
 
-export default function TeamSection(){
+
+
+export default function TeamSection() {
     return (
         <div>
             <section className="team py-28 bg-[#293356]">
@@ -19,7 +23,14 @@ export default function TeamSection(){
                     <div className="team-member flex flex-1/3 gap-6">
 
                         <div className="emp bg-white">
-                            <Image src={"/images/m1.png"} height={475} width={460} alt="" />
+                            <div className='members relative'>
+                                <Image src={"/images/m1.png"} height={475} width={460} alt="" />
+                                <ul className="socialMedia absolute bottom-0 flex flex-1/3">
+                                    <li className="bg-[#5dae45] p-5 text-2xl"><a href="/" className='text-white'><FiFacebook /></a></li>
+                                    <li className="bg-[#5dae45] p-5 text-2xl"><a href="/" className='text-white'><FiLinkedin /></a></li>
+                                </ul>
+                            </div>
+
                             <div className="team-txt py-8 px-10">
                                 <h2 className="text-2xl font-bold mb-2 leading-normal">Dr. Caroly</h2>
                                 <h3 className="text-[#5dae45] text-lg mb-2 leading-normal">Deantal speacialist</h3>
@@ -27,7 +38,14 @@ export default function TeamSection(){
                         </div>
 
                         <div className="emp bg-white">
-                            <Image src={"/images/m2.png"} height={475} width={460} alt="" />
+                            <div className='members relative'>
+                                <Image src={"/images/m2.png"} height={475} width={460} alt="" />
+                                <ul className="socialMedia absolute bottom-0 flex flex-1/3">
+                                    <li className="bg-[#5dae45] p-5 text-2xl"><a href="/" className='text-white'><FiFacebook /></a></li>
+                                    <li className="bg-[#5dae45] p-5 text-2xl"><a href="/" className='text-white'><FiLinkedin /></a></li>
+                                </ul>
+                            </div>
+
                             <div className="team-txt py-8 px-10">
                                 <h2 className="text-2xl font-bold mb-2 leading-normal">Dr. Culpepper</h2>
                                 <h3 className="text-[#5dae45] text-lg mb-2 leading-normal">Deantal speacialist</h3>
@@ -35,7 +53,13 @@ export default function TeamSection(){
                         </div>
 
                         <div className="emp bg-white">
-                            <Image src={"/images/m3.png"} height={475} width={460} alt="" />
+                            <div className='members relative'>
+                                <Image src={"/images/m3.png"} height={475} width={460} alt="" />
+                                <ul className="socialMedia absolute bottom-0 flex flex-1/3">
+                                    <li className="bg-[#5dae45] p-5 text-2xl"><a href="/" className='text-white'><FiFacebook /></a></li>
+                                    <li className="bg-[#5dae45] p-5 text-2xl"><a href="/" className='text-white'><FiLinkedin /></a></li>
+                                </ul>
+                            </div>
                             <div className="team-txt py-8 px-10">
                                 <h2 className="text-2xl font-bold mb-2 leading-normal">Dr. Alanna</h2>
                                 <h3 className="text-[#5dae45] text-lg mb-2 leading-normal">Deantal speacialist</h3>

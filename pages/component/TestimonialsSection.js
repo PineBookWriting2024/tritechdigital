@@ -55,13 +55,13 @@ export default function Testimonials(){
                 <h2 className="text-xl font-bold leading-normal text-black">Testimonials</h2>
                 <h3 className="text-6xl font-bold leading-normal text-black">What Our Patients Say About Us</h3>
                 <Image src={"/images/coma.png"} height={60} width={60} alt="" />
-                <p className="text-black py-10">Purus turpis vivamus sem est blandit. In at egestas id sollicitudin mattis integer aliquet ut tempor. Risus enim nisi ipsum imperdiet. Sed turpis tellus quisque tellus ipsum malesuada.</p>
+                <p className="text-[#808586] py-10">Purus turpis vivamus sem est blandit. In at egestas id sollicitudin mattis integer aliquet ut tempor. Risus enim nisi ipsum imperdiet. Sed turpis tellus quisque tellus ipsum malesuada.</p>
 
                 <div className="flex gap-3 items-center">
                   <Image src={"/images/client.png"} height={60} width={60} alt="" />
                   <div className="client-name">
-                    <h4>JOSE TURNER</h4>
-                    <span>Customer</span>
+                    <h4 className='font-bold'>JOSE TURNER</h4>
+                    <span className='text-[#808586]'>Customer</span>
                   </div>
                 </div>
               </div>

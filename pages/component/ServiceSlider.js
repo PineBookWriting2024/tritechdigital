@@ -12,7 +12,7 @@ export default function ServiceSlider(){
             <a href="#">
               <div className="ser-box relative">
               {/* <h3 className="p-2 mt-2.5 text-white absolute text-3xl left-[8%] font-extrabold w-full">AI-Enhanced <span className="font-extralight italic">Creative </span></h3> */}
-                <Image className='rounded-xl' src="/images/ser-1.png" width={350} height={300} alt="service1" />
+                <Image className='rounded-xl' src="/images/ser-1.png" width={500} height={300} alt="service1" />
                 <div className="ser-items">
                   <ul className="ser-list flex flex-wrap absolute gap-2.5 left-[5%]">
                     <li className="text-white font-light text-[10px] space-x-1 rounded-full border-[1px] p-1.5">HTML</li>
@@ -33,7 +33,7 @@ export default function ServiceSlider(){
             <a href="#">
               <div className="ser-box relative">
               {/* <h3 className="p-2 mt-2.5 text-white absolute text-3xl left-[8%] font-extrabold w-full">AI-Enhanced <span className="font-extralight italic">Creative </span></h3> */}
-                <Image className='rounded-xl' src="/images/ser-2.png" width={350} height={300} alt="service1" />
+                <Image className='rounded-xl' src="/images/ser-2.png" width={500} height={300} alt="service1" />
                 <div className="ser-items">
                   <ul className="ser-list flex flex-wrap absolute gap-2.5 left-[5%]">
                     <li className="text-white font-light text-[10px] space-x-1 rounded-full border-[1px] p-1.5">HTML</li>
@@ -54,7 +54,7 @@ export default function ServiceSlider(){
             <a href="#">
               <div className="ser-box relative">
               {/* <h3 className="p-2 mt-2.5 text-white absolute text-3xl left-[8%] font-extrabold w-full">AI-Enhanced <span className="font-extralight italic">Creative </span></h3> */}
-                <Image className='rounded-xl' src="/images/ser-3.png" width={350} height={300} alt="service1" />
+                <Image className='rounded-xl' src="/images/ser-3.png" width={500} height={300} alt="service1" />
                 <div className="ser-items">
                   <ul className="ser-list flex flex-wrap absolute gap-2.5 left-[5%]">
                     <li className="text-white font-light text-[10px] space-x-1 rounded-full border-[1px] p-1.5">HTML</li>
@@ -75,7 +75,7 @@ export default function ServiceSlider(){
             <a href="#">
               <div className="ser-box relative">
               {/* <h3 className="p-2 mt-2.5 text-white absolute text-3xl left-[8%] font-extrabold w-full">AI-Enhanced <span className="font-extralight italic">Creative </span></h3> */}
-                <Image className='rounded-xl' src="/images/ser-4.png" width={350} height={300} alt="service1" />
+                <Image className='rounded-xl' src="/images/ser-4.png" width={500} height={300} alt="service1" />
                 <div className="ser-items">
                   <ul className="ser-list flex flex-wrap absolute gap-2.5 left-[5%]">
                     <li className="text-white font-light text-[10px] space-x-1 rounded-full border-[1px] p-1.5">HTML</li>
@@ -96,7 +96,7 @@ export default function ServiceSlider(){
             <a href="#">
               <div className="ser-box relative">
               {/* <h3 className="p-2 mt-2.5 text-white absolute text-3xl left-[8%] font-extrabold w-full">AI-Enhanced <span className="font-extralight italic">Creative </span></h3> */}
-                <Image className='rounded-xl' src="/images/ser-5.png" width={350} height={300} alt="service1" />
+                <Image className='rounded-xl' src="/images/ser-5.png" width={500} height={300} alt="service1" />
                 <div className="ser-items">
                   <ul className="ser-list flex flex-wrap absolute gap-2.5 left-[5%]">
                     <li className="text-white font-light text-[10px] space-x-1 rounded-full border-[1px] p-1.5">HTML</li>
@@ -117,7 +117,7 @@ export default function ServiceSlider(){
             <a href="#">
               <div className="ser-box relative">
               {/* <h3 className="p-2 mt-2.5 text-white absolute text-3xl left-[8%] font-extrabold w-full">AI-Enhanced <span className="font-extralight italic">Creative </span></h3> */}
-                <Image className='rounded-xl' src="/images/ser-6.png" width={350} height={300} alt="service1" />
+                <Image className='rounded-xl' src="/images/ser-6.png" width={500} height={300} alt="service1" />
                 <div className="ser-items">
                   <ul className="ser-list flex flex-wrap absolute gap-2.5 left-[5%]">
                     <li className="text-white font-light text-[10px] space-x-1 rounded-full border-[1px] p-1.5">HTML</li>
@@ -138,7 +138,7 @@ export default function ServiceSlider(){
             <a href="#">
               <div className="ser-box relative">
               {/* <h3 className="p-2 mt-2.5 text-white absolute text-3xl left-[8%] font-extrabold w-full">AI-Enhanced <span className="font-extralight italic">Creative </span></h3> */}
-                <Image className='rounded-xl' src="/images/ser-7.png" width={350} height={300} alt="service1" />
+                <Image className='rounded-xl' src="/images/ser-7.png" width={500} height={300} alt="service1" />
                 <div className="ser-items">
                   <ul className="ser-list flex flex-wrap absolute gap-2.5 left-[5%]">
                     <li className="text-white font-light text-[10px] space-x-1 rounded-full border-[1px] p-1.5">HTML</li>
