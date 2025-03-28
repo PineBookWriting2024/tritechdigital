@@ -6,14 +6,14 @@ import ServiceSlider from "./component/ServiceSlider";
 // import TeamSection from "./component/TeamSection";
 // import Testimonials from "./component/TestimonialsSection";
 import Footer from "./component/footer";
-// import PreLoader from "./component/PreLoader";
+import PreLoader from "./component/PreLoader";
 
 
 export default function Home() {
  
   return (
     <>
-    {/* <PreLoader/> */}
+    <PreLoader/>
       <Header />
 
       <MainBanner />
