@@ -1,6 +1,10 @@
-import React from 'react'
+"use client";
+import React from 'react';
+import { usePopup } from "@/context/PopupContext"; // ✅ Context Import کریں
 
 export default function MainBanner(){
+  const { openPopup } = usePopup(); // ✅ Context سے open function لیں
+
   return (
     <div>
            <section className="main-banner flex items-center sm:h-[116vh] h-[80vh] bg-[url('/images/banner.png')] bg-cover">
@@ -14,7 +18,7 @@ export default function MainBanner(){
         
                       <p className="text-lg font-medium text-[#fff] leading-normal my-2.5 ">Mauris risus adipiscing cursus consequat. Sit duis lobortis diam non. In in suspendisse quam in vestibulum diam scelerisque vulputate id. In tellus nibh volutpat dignissim.</p>
         
-                      <a href="#" className="text-lg font-medium text-[#fff] bg-[#5dae45] p-4 leading-normal inline-block">Make Appointment</a>
+                      <a href="#" onClick={openPopup} className="text-lg font-medium text-[#fff] bg-[#5dae45] p-4 leading-normal inline-block">Make Appointment</a>
                     </div>
                     <div>
         

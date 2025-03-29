@@ -7,13 +7,16 @@ import ServiceSlider from "./component/ServiceSlider";
 // import Testimonials from "./component/TestimonialsSection";
 import Footer from "./component/footer";
 import PreLoader from "./component/PreLoader";
+import Sidepopup from "./component/Sidepopup";
+
 
 
 export default function Home() {
  
   return (
     <>
-    <PreLoader/>
+    {/* <PreLoader/> */}
+    <Sidepopup/>
       <Header />
 
       <MainBanner />
